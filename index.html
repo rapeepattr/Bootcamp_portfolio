@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/pic/icon.ico">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="flex justify-content-between align-items-center p-4">
+      <!-- Logo -->
+      <div class="flex gap-1">
+        <p
+          class="ddl_typesscale-headline-m ddl_typesweight-bold ddl_color-text-orange-500"
+        >
+          My
+        </p>
+        <p class="ddl_typesscale-headline-m ddl_typesweight-regular">
+          Portfolio
+        </p>
+      </div>
+      <!-- Hamburger Icon -->
+      <div class="hamburger-icon">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <!-- Menu -->
+      <div class="flex gap-3 menu-items">
+        <a href="#home" class="ddl_typesscale-label-l ddl_typesweight-regular menu">Home</a>
+        <a href="#about-me" class="ddl_typesscale-label-l ddl_typesweight-regular menu">About me</a>
+        <a href="#my-project" class="ddl_typesscale-label-l ddl_typesweight-regular menu">My Project</a>
+        <a href="#contact-us" class="ddl_typesscale-label-l ddl_typesweight-regular menu">Contact us</a>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="flex justify-content-center p-3 pt-5">
+      <div id="home">
+        <p class="ddl_typesscale-display-s ddl_typesweight-regular">
+          Hi There!
+        </p>
+        <!-- Name -->
+        <div class="flex flex-column flex-sm-row mx-auto gap-2">
+          <p class="ddl_typesscale-display-l ddl_typesweight-regular">I'm</p>
+          <p
+            class="ddl_typesscale-display-l ddl_typesweight-bold ddl_color-text-orange-500"
+          >
+            Rapeepat
+          </p>
+          <p
+            class="ddl_typesscale-display-l ddl_typesweight-bold ddl_color-text-orange-500"
+          >
+            Treerattrakul
+          </p>
+        </div>
+
+        <div class="flex flex-column flex-sm-row">
+          <p class="ddl_typesscale-headline-s ddl_typesweight-bold">
+            <span style="border-bottom: 4px solid #FF5B19;">Front-End</span> Designer/
+          </p>
+          <p class="ddl_typesscale-headline-s ddl_typesweight-bold">
+            <span style="border-bottom: 4px solid #FF5B19;">UI</span> Designer
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="flex justify-content-center mx-auto mt-5">
+      <button class="btn btn-ddl_primary ddl_typesscale-headline-s mt-2 me-3 contact-btn" onclick="document.location='https://github.com/rapeepattr'">Contact Us</button>
+    </div>
+
+    <!-- About Me -->
+    <div class="p-2 p-sm-auto px-lg-15rem" id="about-me">
+      <div class="flex flex-column align-items-center justify-content-center" style="padding-top: 6rem">
+        <p class="ddl_typesscale-display-l ddl_typesweight-regular">About <span class="ddl_typesscale-display-l ddl_typesweight-bold ddl_color-text-orange-500">Me</span></p>
+        <div class="section_underline mb-5"></div>
+      </div>
+
+      <div
+        class="flex flex-column flex-sm-row mx-auto justify-content-center mt-5 gap-sm-5"
+      >
+        <img src="./pic/myself.png" alt="myself_pic" class="project_img shadow-drop" />
+        <div>
+          <p class="ddl_typesscale-headline-s ddl_typesweight-light">
+            I’m <span style="font-weight: 800;">Peet</span>, As a Software Developer, I have passion in
+            <span style="font-weight: 700; color: #FF5B19;">JavaScript, HTML and CSS.</span> My goal is to continuously improve myself
+            to develop software that makes users' daily lives more better.
+          </p>
+          <p class="ddl_typesscale-title-l ddl_typesweight-bold">
+            <b>Skills:</b>
+          </p>
+          <div style="margin-left: 20px;">
+            <p class="ddl_typesscale-title-l ddl_typesweight-light">
+              <b style="font-weight: 800;">• JavaScript:</b> Experience in developing websites using JavaScript.<br/>
+            </p>
+            <p class="ddl_typesscale-title-l ddl_typesweight-light">
+              <b style="font-weight: 800;">• Framework:</b> Experience writing JavaScript using the Next.js and React frameworks<br/>
+            </p>
+            <p class="ddl_typesscale-title-l ddl_typesweight-light">
+              <b style="font-weight: 800;">• Web Development:</b> Experience in working on projects using HTML, CSS, and various frameworks for developing applications and websites.<br/>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- My Projects -->
+    <div id="my-project">
+      <div class="flex flex-column align-items-center pt-5 gap-2">
+        <div class="flex gap-2">
+          <p class="ddl_typesscale-display-l ddl_typesweight-bold ddl_color-text-orange-500">My</p>
+          <p class="ddl_typesscale-display-l ddl_typesweight-regular">Projects</p>
+        </div>
+        <div class="section_underline mb-5"></div>
+      </div>
+
+      <!-- Card -->
+      <div class="p-4 flex gap-5 gap-md-5rem mx-auto flex-column flex-lg-row mx-lg-5 justify-content-center">
+        <div class="flex flex-column justify-items-center" style="align-items: center;">
+          <img src="./pic/taskmate_pic.png" alt="pic1" class="project_img shadow-r" />
+          <div class="px-lg-1" style="max-width: 350px;">
+            <p class="ddl_typesscale-title-m ddl_typesweight-regular">
+              Project name: <b>Taskmate</b>
+            </p>
+            <p class="ddl_typesscale-body-l ddl_typesweight-regular"> A web app made with HTML, JS, and CSS. It helps you list what you need to do today and lets you easily edit or delete tasks. See how much you've got left to do, get motivated with uplifting quotes, and always know the current date and time</p>
+            <div class="section_underline mb-5"></div>
+          </div>
+        </div>
+        <div class="pt-lg-6 flex flex-column justify-items-center" style="align-items: center;">
+          <img src="./pic/publictodo_pic.png" alt="pic1" class="project_img shadow-mid" />
+          <div class="px-lg-1" style="max-width: 350px">
+            <p class="ddl_typesscale-title-m ddl_typesweight-regular">
+              Project name: <b>Public Todo List</b>
+            </p>
+            <p class="ddl_typesscale-body-l ddl_typesweight-regular">A public todo list powered by Hasura, HTML, CSS, and JavaScript. It serves as a simple and efficient platform to assist users in staying organized while effortlessly sharing their tasks with the world. With features such as date display, a user-friendly design, and seamless integration with Hasura</p>
+            <div class="section_underline mb-5"></div>
+          </div>
+        </div>
+        <div class="flex flex-column" style="align-items: center;">
+          <img src="./pic/staffing_pic.png" alt="pic1" class="project_img shadow-l" />
+          <div class="px-lg-1" style="max-width: 350px;">
+            <p class="ddl_typesscale-title-m ddl_typesweight-regular">
+              Project name: <b>Staffing Management Web Application</b>
+            </p>
+            <p class="ddl_typesscale-body-l ddl_typesweight-regular">Collaborated with Betagro Company in the role of a Web Developer, contributing to a project aimed at developing a web application for staffing management. Utilized React, Node.js, Prisma, TypeScript, and Tailwind CSS to enhance the application's functionality and user interface.</p>
+            <div class="section_underline mb-5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="text-center mt-5 flex flex-column align-items-center" id="contact-us">
+      <p class="ddl_typesscale-display-l ddl_typesweight-regular">Contact</p>
+      <div class="section_underline mb-5"></div>
+    </div>
+
+	<div class="mx-auto" style="width: 60%; display: block; max-width: 600px;">
+		<div class="form-group">
+			<label for="inputName"><span style="font-weight: 800;">Name</span></label>
+			<textarea
+			class="form-control focus-ring focus-ring-light ddl-input mb-3 contact-form"
+			id="exampleFormControlTextarea1"
+			rows="2"
+			name="emailForm"
+		  ></textarea>
+		</div>
+	
+		<div class="form-group">
+			<label for="inputCountry"><span style="font-weight: 800;">Message</span></label>
+			<textarea
+			class="form-control focus-ring focus-ring-light ddl-input mb-5 contact-form"
+			id="exampleFormControlTextarea1"
+			rows="10"
+			name="emailForm"
+			></textarea>
+		</div>
+	</div>
+
+  <div class="flex justify-content-center mx-auto">
+    <button class="btn btn-ddl_primary ddl_typesscale-headline-s mt-2 me-3 contact-btn mb-10rem">Send</button>
+  </div>
+
+    <!-- Footer -->
+    <div class="footer flex align-items-center justify-content-center">
+        <p class="m-0 "">Copyright © 2024 Banana Coding, All Rights Reserved.</p>
+    </div>
+  </body>
+</html>
